@@ -1,7 +1,7 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Anthony Wright Jr. CSD-340 09/19/21-->
+    <!--Anthony Wright Jr. CSD-340 09/26/21-->
     <title>Jaylen Wyatt's Landing Page</title>
    
     <link rel="stylesheet" type="text/css" href="jwyatt.css">
@@ -10,29 +10,47 @@
 </head>
 
 <body>
-    <div class = "wrapper">
-    <header id = "banner">
-        <h1>Jaylen Wyatt</h1>
-        <div id = "navbar">
-            <a href = "hobbies.html">Landing Page</a>
-            <a href = "index.html">About Page</a>
-            <a href = "aboutpage.html">Hobbies Page</a>
-        </div>
-    </header>
-    <!--image slideshow -->
-    <div class = "slideshow-container">
-        <img src = "#" alt = "img" target = "_blank"> 
-        <img src = "#" alt = "img" target = "_blank"> 
-        <img src = "#" alt = "img" target = "_blank"> 
-    </div>
-    <!--Goals write up-->
-    <div id = "goals"> 
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni
-        </p>
-    </div>
-    </div>
+        <header>
+          <div class="nav">
+            <ul>
+              <li><a href="hobbies.html">Hobbies Page</a></li>
+              <li><a class="active" href="index.html">About Page</a></li>
+              <li><a href="aboutpage.html">Landing Page</a></li>
+            </ul>
+          </div>
+        </header>
+      
 
+<hr>
+
+    <h1>Jaylen Wyatt</h1>
+
+    <!--images -->
+    <div class="carousel">
+        <input id="image1" type="radio" name="image-selector" checked="checked" />
+        <label for="image3">View image 3</label>
+        <img src="images/uoh.png" />
+        
+        <input id="image2" type="radio" name="image-selector" />
+        <label for="image1">View image 1</label>
+        <img src="images/production.jpg" />
+      
+        <input id="image3" type="radio" name="image-selector" />
+        <label for="image2">View image 2</label>
+        <img src="images/sales.jpg" />
+        
+        <label for="image3">View image 3</label>
+        <label for="image1">View image 1</label>
+      </div>
+<!--goals and accomplishments-->
+    <p class="info"> According to Jaylen, His most prized achievement was graduating from the University
+        of Houston for music. Jaylen Had picked up music production as a kid, and was entirely 
+        self-taught in production for some time, but then decided to the next level and get a 
+        degree for it. With all of his newfound knowledge upon exiting school, Jaylen has 
+        started his own studio out in Houston Texas. His studio has been a success, but one 
+        of Jaylen's main goals is to start his own luxury car sales lot.
+    </p>
+</div>
     <footer>
         <p>
             <a href = "../index.html">Back to Landing Page</a>
