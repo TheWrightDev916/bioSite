@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Anthony Wright Jr. CSD-340 09/19/21-->
+    <!--Anthony Wright Jr. CSD-340 09/26/21-->
     <title>Jaylen Wyatt's Hobbies and Interest Page</title>
    
     <link rel="stylesheet" type="text/css" href="jwyatt.css">
@@ -10,29 +10,50 @@
 </head>
 
 <body>
-    <div class = "wrapper">
-    <header id = "banner">
-        <h1>Hobbies and Interest</h1>
-        <div id = "navbar">
-            <a href = "hobbies.html">Landing Page</a>
-            <a href = "index.html">About Page</a>
-            <a href = "aboutpage.html">Hobbies Page</a>
+    <header>
+        <div class="nav">
+          <ul>
+            <li><a class="active" href="hobbies.html">Hobbies Page</a></li>
+            <li><a href="index.html">About Page</a></li>
+            <li><a href="aboutpage.html">Landing Page</a></li>
+          </ul>
         </div>
-    </header>
-    <!--image slideshow -->
-    <div class = "slideshow-container">
-        <img src = "#" alt = "img" target = "_blank"> 
-        <img src = "#" alt = "img" target = "_blank"> 
-        <img src = "#" alt = "img" target = "_blank"> 
-    </div>
-    <!--Hobbies and interest-->
-    <div id = "hobbies"> 
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni
-        </p>
-    </div>
-    </div>
+      </header>
+    
 
+<hr>
+
+  <h1>Jaylen's Hobbies</h1>
+
+ <!--image-->
+ <div class="carousel">
+    <input id="image1" type="radio" name="image-selector" checked="checked" />
+    <label for="image3">View image 3</label>
+    <img src="images/swe.jpg" />
+  
+    <input id="image2" type="radio" name="image-selector" />
+    <label for="image1">View image 1</label>
+    <img src="images/airsoft.jpg" />
+  
+    <input id="image3" type="radio" name="image-selector" />
+    <label for="image2">View image 2</label>
+    <img src="images/sc.jpg" />
+  
+
+    
+    <label for="image3">View image 3</label>
+    <label for="image1">View image 1</label>
+  </div>
+<!--Hobbies and interest-->
+  <p class="info3"> After having a career in the music industry, he later realized that he also enjoys Software Development. Instead of 
+    going back to school and getting a degree for computer science as well, Jaylen has 
+    chosen to code as one of his hobbies and become self-taught until further notice. One 
+    of his other main hobbies, he enjoys is playing Airsoft. Jaylen says some of his better
+   days are spent on the field shooting at other people in a non-lethal matter for the sport. 
+   Also, after long days of work, he says his main hobby consist of being in space in a video 
+   game called star citizen, where he can temporarily leave earth and have an out of this world experience.
+  </p>
+</div>
     <footer>
         <p>
             <a href = "../index.html">Back to Landing Page</a>
