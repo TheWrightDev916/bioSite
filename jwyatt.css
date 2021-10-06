@@ -125,7 +125,7 @@ html {
     top:0;
     width:25%;
     height:100%;
-    visibility:visible;
+    visibility:hidden;
   }
   .carousel > label:before {
     content:'';
